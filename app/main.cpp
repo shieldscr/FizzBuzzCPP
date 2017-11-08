@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 #include "exampleConfig.h"
-#include "example.h"
+#include "FizzBuzz.h"
 
 /*
  * Simple main program that demontrates how access
@@ -18,6 +18,6 @@ int main() {
 
   // Bring in the dummy class from the example source,
   // just to show that it is accessible from main.cpp.
-  Dummy d = Dummy();
-  return d.doSomething() ? 0 : -1;
+  // Dummy d = Dummy();
+  // return d.doSomething() ? 0 : -1;
 }
