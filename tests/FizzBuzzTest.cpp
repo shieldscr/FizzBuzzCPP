@@ -11,4 +11,3 @@ TEST(FizzBuzz, FizzBuzz_returns_Fizz_When_Given_3) {
   FizzBuzz fizzBuzz = FizzBuzz();
   ASSERT_EQ("fizz", fizzBuzz.Fizz(3));
 }
-
